@@ -28,7 +28,7 @@ public class Product {
     }
 
     private boolean checkURL(String url){
-
+        return false;
     }
 }
 class ShoppingCart implements productInter{
@@ -36,6 +36,6 @@ class ShoppingCart implements productInter{
     private double totalValue;
 
     public double calculateValue(){
-
+        return 0.0;
     }
 }
